@@ -101,6 +101,6 @@ StackBlitz is an online IDE that lets you run Angular projects directly in your 
 - **`app.module.ts`**: Configures the Angular app and imports necessary modules.
 
 
-##Preview 
+## Preview 
 - Heres what it should look like
 - <img width="830" alt="Screenshot 2025-01-19 at 10 22 23 PM" src="https://github.com/user-attachments/assets/89726960-9315-4838-a23a-8e5e2f99f220" />
