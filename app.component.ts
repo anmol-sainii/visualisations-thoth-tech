@@ -6,16 +6,18 @@ import { single } from './data';
 @Component({
   selector: 'my-app',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
   single: any[];
-  view: any[] = [500, 400];
+  view: any[] = [700, 400];
   legend: boolean = true;
   legendPosition: string = 'below';
+  max = 20;
+  bigSegments = 5;
 
   colorScheme = {
-    domain: ['#5AA454', '#E44D25', '#CFC0BB', '#7aa3e5', '#a8385d', '#aae3f5']
+    domain: ['#5AA454', '#E44D25', '#CFC0BB', '#7aa3e5', '#a8385d', '#aae3f5'],
   };
 
   constructor() {
