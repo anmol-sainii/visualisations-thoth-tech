@@ -56,6 +56,36 @@ To integrate the gauge chart into an Angular application, the following modules 
 
 4. **Dependencies**:
    - Ensure other Angular dependencies (like `@angular/core`, `@angular/common`, etc.) are installed and up-to-date.
+## Running the Project on StackBlitz
+
+StackBlitz is an online IDE that lets you run Angular projects directly in your browser without any setup. Follow the steps below to run this project on StackBlitz:
+
+### Step 1: Create a New Angular Project
+1. Visit [StackBlitz Angular Starter](https://stackblitz.com/fork/angular).
+2. This will open a blank Angular project with basic files (`app.component.ts`, `app.component.html`, etc.).
+
+### Step 2: Install `ngx-gauge`
+1. Open the **Terminal** in StackBlitz (bottom right).
+2. Run the following command to install the `ngx-gauge` library:
+   ```bash
+   npm install ngx-gauge
+### Step 3: Set Up the Files
+
+1. Copy the contents of the following files from this repository into your StackBlitz project:
+   - **`app.component.ts`**: Paste into the existing `app.component.ts` file.
+   - **`app.component.html`**: Paste into the existing `app.component.html` file.
+   - **`data.ts`**: Create a new file named `data.ts` and paste the content.
+   - **`app.module.ts`**: Update the existing `app.module.ts` to include the `NgxGaugeModule` as shown in the **Required Modules and Libraries** section.
+
+### Step 4: Run the Application
+
+1. Save all the changes in StackBlitz.
+2. The app should automatically reload, and you will see the gauge chart displayed in the browser.
+
+### Step 5: Test and Customize
+
+- Modify the mock data in **`data.ts`** to test different progress values.
+
 ## Future Integration Steps
 
 - Replace the **mock data** with real data from doubtfire API.
@@ -69,3 +99,8 @@ To integrate the gauge chart into an Angular application, the following modules 
 - **`app.component.html`**: Defines the template for the gauge chart.
 - **`data.ts`**: Stores mock data simulating student task progress.
 - **`app.module.ts`**: Configures the Angular app and imports necessary modules.
+
+
+##Preview 
+- Heres what it should look like
+- <img width="830" alt="Screenshot 2025-01-19 at 10 22 23 PM" src="https://github.com/user-attachments/assets/89726960-9315-4838-a23a-8e5e2f99f220" />
